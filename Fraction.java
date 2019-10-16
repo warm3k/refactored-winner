@@ -19,11 +19,17 @@ public class Fraction(){
         this.numerateur=numerateur;
 
     }
-    getN(){
+    int getN(){
         return this.numerateur;
     }
-    getD(){
+    int getD(){
         return this.denominateur;
+    }
+
+    static boolean equals(Fraction f1,Fraction f2){
+        if(f1==f2)return true;
+        else return false;
+
     }
     
     
